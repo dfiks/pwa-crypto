@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <circle cx="400" cy="300" r="250" stroke="white" stroke-width="2" stroke-opacity="0.1"/>
+  <circle cx="400" cy="300" r="200" stroke="white" stroke-width="2" stroke-opacity="0.15"/>
+  <circle cx="400" cy="300" r="150" stroke="white" stroke-width="2" stroke-opacity="0.2"/>
+  
+  <!-- Trading Chart -->
+  <path d="M100 400 L200 350 L300 450 L400 200 L500 300 L600 150 L700 250" 
+        stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Candlesticks -->
+  <g opacity="0.9">
+    <!-- Candlestick 1 -->
+    <rect x="150" y="280" width="20" height="60" fill="white"/>
+    <line x1="160" y1="260" x2="160" y2="360" stroke="white" stroke-width="2"/>
+    
+    <!-- Candlestick 2 -->
+    <rect x="250" y="320" width="20" height="40" fill="white"/>
+    <line x1="260" y1="300" x2="260" y2="380" stroke="white" stroke-width="2"/>
+    
+    <!-- Candlestick 3 -->
+    <rect x="350" y="200" width="20" height="80" fill="white"/>
+    <line x1="360" y1="180" x2="360" y2="300" stroke="white" stroke-width="2"/>
+    
+    <!-- Candlestick 4 -->
+    <rect x="450" y="250" width="20" height="50" fill="white"/>
+    <line x1="460" y1="230" x2="460" y2="320" stroke="white" stroke-width="2"/>
+  </g>
+  
+  <!-- Cryptocurrency Symbols -->
+  <g opacity="0.8">
+    <!-- Bitcoin Symbol -->
+    <circle cx="200" cy="150" r="30" stroke="white" stroke-width="2" fill="none"/>
+    <text x="185" y="160" fill="white" font-family="Arial" font-size="24">₿</text>
+    
+    <!-- Ethereum Symbol -->
+    <circle cx="600" cy="400" r="30" stroke="white" stroke-width="2" fill="none"/>
+    <text x="585" y="410" fill="white" font-family="Arial" font-size="24">Ξ</text>
+  </g>
+  
+  <!-- Connection Lines -->
+  <g opacity="0.3">
+    <line x1="200" y1="150" x2="400" y2="300" stroke="white" stroke-width="1"/>
+    <line x1="600" y1="400" x2="400" y2="300" stroke="white" stroke-width="1"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g opacity="0.5">
+    <circle cx="150" cy="450" r="5" fill="white"/>
+    <circle cx="650" cy="150" r="5" fill="white"/>
+    <circle cx="400" cy="100" r="5" fill="white"/>
+  </g>
+</svg>
